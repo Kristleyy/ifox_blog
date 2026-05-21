@@ -56,8 +56,9 @@ export default function AdminDashboard() {
         style={{
           backgroundColor: "#1e293b",
           color: "#cbd5e1",
-          width: "100%",
-          minWidth: 0,
+          width: 300, // fixed 240px
+          minWidth: 100, // never shrink below 240px
+          flexShrink: 0, // add this new line
         }}
       >
         <div
