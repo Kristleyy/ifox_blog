@@ -1,0 +1,25 @@
+:root {
+  --color-brand: #f05824;
+  --color-brand-hover: #d94a1c;
+  --color-brand-light: #fbeae3;
+}
+
+.bg-subtle-texture {
+  background-color: #f7f5f2;
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' ...");
+}
+
+/* === Logo + Brand Styling === */
+.logo {
+  height: 1.7em; /* scales with text size */
+  width: auto;
+  margin-right: 0.25rem;
+  vertical-align: middle;
+  border-radius: 8px; /* rounds off corners */
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+}
